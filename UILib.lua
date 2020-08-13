@@ -5,11 +5,11 @@ local placeID = tostring(game.PlaceId);
 local httpService = game:GetService("HttpService");
 
 pcall(function()
-    config = httpService:JSONDecode(readfile(placeID .. ".txt"));
+    config = httpService:JSONDecode(readfile(placeID .. ".LUKCFG"));
 end);
 
 local function saveConfig()
-    writefile(placeID .. ".txt", httpService:JSONEncode(config));
+    writefile(placeID .. ".LukCFG", httpService:JSONEncode(config));
 end;
 
 local oldScript = script;
