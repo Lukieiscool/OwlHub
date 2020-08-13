@@ -47,7 +47,6 @@
     "3527629287": {"Name": "BIG Paintball", "Script": "BigPaintball.lua"},
     "3759927663": {"Name": "Zombie Strike", "Script": "ZombieStrike.lua"},
     "3803533582": {"Name": "Zombie Strike", "Script": "ZombieStrike.lua"},
-    "3759927663": {"Name": "Zombie Strike", "Script": "ZombieStrike.lua"},
     "2277629691": {"Name": "Infinity RPG 2", "Script": "InfinityRPGTwo.lua"},
     "2277630015": {"Name": "Infinity RPG 2", "Script": "InfinityRPGTwo.lua"},
     "4464235702": {"Name": "Infinity RPG 2", "Script": "InfinityRPGTwo.lua"},
@@ -84,7 +83,9 @@
     "4850830209": {"Name": "RB World 3", "Script": "RBWorld3.lua"},
     "261290060": {"Name": "Terminal Railways", "Script": "TerminalRailways.lua"},
     "2555870920": {"Name": "AceOfSpadez", "Script": "AceOfSpadez.lua"},
-    "606849621": {"Name": "Jailbreak", "Script": "Jailbreak.lua"},
     "3606833500": {"Name": "Strucid", "Script": "Strucid.lua"},
-    "2674164583": {"Name": "Strucid", "Script": "Strucid.lua"}
+    "2674164583": {"Name": "Strucid", "Script": "Strucid.lua"},
+    "245936354": {"Name": "Galaxy Development", "Script": "Galaxy.lua"},
+    "302359564": {"Name": "Galaxy Arcade", "Script": "Galaxy.lua"},
+    "200330616": {"Name": "Galaxy", "Script": "Galaxy.lua"}
 }
