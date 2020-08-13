@@ -1,44 +1,3 @@
-local GetName = game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId)
-
-if getgenv().LukHubLoaded then
-	rconsoleprint("@@RED@@")
-	rconsoleprint("\nLukHub is already loaded!")
-	return
-end
-wait(0.025)
-getgenv().LukHubLoaded = true
-
-rconsolename("LukHub Console - v1.2")
-rconsoleprint("@@BLUE@@")
-rconsoleprint[[
-  _           _      _    _       _     
- | |         | |    | |  | |     | |    
- | |    _   _| | _  | |__| |_   _| |__  
- | |   | | | | |/ / |  __  | | | | '_ \ 
- | |___| |_| |   <  | |  | | |_| | |_) |
- |______\__,_|_|\_\ |_|  |_|\__,_|_.__/ 
-]]
-
-wait(0.7)
-rconsoleprint("@@WHITE@@")
-rconsoleprint("-> Searching for game")
-wait(1)
-rconsoleprint("\n-> Game Found: ")
-rconsoleprint("@@LIGHT_BLUE@@")
-rconsoleprint(""..GetName.Name)
-rconsoleprint("@@WHITE@@")
-wait(0.5)
-rconsoleprint("\n-> Executing Hub")
-wait(0.3)
-rconsoleprint(".")
-wait(0.3)
-rconsoleprint(".")
-wait(0.3)
-rconsoleprint(".")
-wait(0)
-
-
-
 
 local OwlLib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Lukieiscool/OwlHub/master/UILib.lua", true))()
 
@@ -158,10 +117,6 @@ Misc:newBtn("Teleport Ship Seat", function()
 end, true)
 
 game.Players.LocalPlayer.Character.HumanoidRootPart.CFrame = CFrame.new(-0.549171507, 1623.88684, -0.567706823)
-
-rconsoleprint("\n-> Hub has been executed")
-rconsoleprint("\n-> Enjoy!")
-
 
 
 function isnil(thing)
